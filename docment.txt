@@ -1,0 +1,39 @@
+- Function (hàm) sinh ra để 
+  + Giúp code trở nên gọn gàng hơn
+  + Có thể tái sử dụng lại được và tiết kiệm được nhiều thời gian
+
+- Có 2 loại function chính
+  + Built in function: Những hàm đã được JS xây dựng sẵn
+  + Hàm được tự xây dựng
+
+- Nguyên tắc đặt tên hàm (function)
+  + tên phải bắt đầu là một động từ
+  + Viết theo kiểu camel case
+  + Viết bằng tiếng anh và phải có ý nghĩa
+  + Không sử dụng các ký tự đặc biệt như: *, %, -, = ,... Ngoại trừ $ và _
+  + Hàm không được bắt đầu bằng một chữ số
+  + Đối với những hàm yêu cầu lấy dữ liệu thì sẽ bắt đầu bằng tiền tố là get. Ví dụ: getName, getProduct,..
+  + Đối với những hàm yêu cầu cập nhật thì sẽ bắt đầu bằng tiền tố set hoặc update
+  + Đối với những hàm xử lý thì bắt đầu bằng tiền tố "handle" - Xử lý. Ví dụ: handleDeteleUser, handleCloseForm,...
+
+- Lưu ý: Function chỉ được thực thi khi nó được gọi
+  + Để gọi function, chúng ta sử dụng toán tử CALL 
+
+- Tham số: là những giá trị được truyền vào tại thời điểm khai báo hàm
+- Đối số: là những giá trị được truyền vào tại thời điểm hàm được gọi
+
+- Hàm không trả về giá trị thì mặc định sẽ nhận giá trị là undefined
+- Để hàm có thể nhận được giá trị thì bắt buộc phải sử dụng từ khóa return
+
+- Lưu ý: Biến bên trong một function thì không thể được chia sẻ ra bên ngoài
+
+- Trong JavaScript có 3 loại function chính:
+  + Declaration function 
+    - Có cơ chế hoisting (Có thể sử dụng trước khi khai báo)
+    - Có thể khai báo lại tên hàm
+    - Khi khai báo 2 function declaration trùng tên nhau thì nó sẽ lấy kết quả của function được khai báo sau
+  + Expression function
+  + Arrow function
+    - Không thể khai báo lại
+    - Không có cơ chế hoisting
+    - Không có ngữ cảnh (từ khóa this)
